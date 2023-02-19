@@ -17,8 +17,7 @@ const Technologies = () =>  (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies in the web development world.
-      From Back-end To Design
+      I've worked with a wide range a technologies, ranging from front end to back end to data science. From my experience, I've learned that the most important skill is the ability to learn new technologies quickly and efficiently. 
     </SectionText>
     <List>
       <ListItem>
@@ -30,7 +29,7 @@ const Technologies = () =>  (
           <ListParagraph>
             HTML5, CSS3, Javascript <br />
             react.js, and next.js <br />
-            1 year
+            2 years
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,7 +42,7 @@ const Technologies = () =>  (
           <ListParagraph>
             Node, Django, and Databases <br />
             like Oracle and MySQL <br />
-            1 year
+            2 years
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -57,7 +56,7 @@ const Technologies = () =>  (
           <ListTitle>Azure</ListTitle>
           <ListParagraph>
             Microsoft Azure Fundamentals <br />
-            1 year
+            2 years
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -69,7 +68,7 @@ const Technologies = () =>  (
           <ListTitle>Python</ListTitle>
           <ListParagraph>
             Python Programming <br />
-            1.5 years
+            3 years
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -81,7 +80,7 @@ const Technologies = () =>  (
           <ListTitle>Java</ListTitle>
           <ListParagraph>
             Java Programming <br />
-            1.5 years
+            2 years
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -93,7 +92,7 @@ const Technologies = () =>  (
           <ListTitle>C</ListTitle>
           <ListParagraph>
             C Programming <br />
-            1 year
+            2 year
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -106,7 +105,7 @@ const Technologies = () =>  (
           <ListParagraph>
             R programming <br />
             for Data Science <br />
-            0.5 years
+            1 year
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -132,7 +131,7 @@ const Technologies = () =>  (
           <ListParagraph>
             Figma <br />
             Design Software <br />
-            0.5 years
+            1 year
           </ListParagraph>
         </ListContainer>
       </ListItem>
