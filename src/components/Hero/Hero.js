@@ -13,7 +13,7 @@ const Hero = (props) => (
           Welcome to My Portfolio 
         </SectionTitle>
         <SectionText>
-        I'm a rising junior, majoring in CSE at Lehigh University. I'm most passionate about Python Development and using the MERN stack for front end developement. I'm currently looking for a summer internship for 2023 in Software Engineering.
+        I'm a junior majoring in CSE at Lehigh University. I'm most passionate about Python Development and using the MERN stack for front end developement. I'm currently looking for a summer internship for 2023 in Software Engineering.
         </SectionText>
         <Button onClick={props.handleClick}>Learn More</Button>
       </LeftSection>
