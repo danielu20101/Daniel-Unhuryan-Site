@@ -152,3 +152,12 @@ export const CarouselButtonDot = styled.div`
   width: 3px;
   height: 3px;
 `
+
+export const CarouselItemImage = styled.img`
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 1rem;
+  object-fit: cover;
+  border-radius: 10px;
+`;

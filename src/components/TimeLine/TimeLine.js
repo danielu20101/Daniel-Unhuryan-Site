@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 
-import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
+import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode, CarouselItemImage } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Recently, I have completed 2 internship experiences as a back-end software engineer. I enjoy working on API development with Django
+      I have completed 2 internship experiences as a back-end software engineer. I enjoy working on API development with Django
       Rest Framework, React.js, Node.JS, and Express.js. I find it fascinating how web apps provide so much functionality a typical user doesn't see
       from the back-end. Occasionally, I enjoy working on front-end to exercise my design skills and versatility. 
       </SectionText>
@@ -95,6 +95,7 @@ const Timeline = () => {
                   </CarouselItemImg>
                 </CarouselItemTitle>
                 <CarouselItemText>{item.text}</CarouselItemText>
+                {item.image && <CarouselItemImage src={item.image} alt={`${item.year} experience`} />}
               </CarouselItem>
             </CarouselMobileScrollNode>
           ))}

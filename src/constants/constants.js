@@ -42,9 +42,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2019, text: 'Began my Computer Science Studies at Lehigh University', },
-  { year: 2020, text: 'Wrote my first program in Java', },
-  { year: 2021, text: 'Started my first tech internship as a UI/UX Designer', },
-  { year: 2022, text: 'Backend Developer at Above & Beyond Studios and Exorbital', },
-  { year: 2023, text: 'Incoming IT Development Engineer at Qualcomm',}
+  { year: 2019, text: 'Began my Computer Science Studies at Lehigh University'},
+  { year: 2020, text: 'Wrote my first program in Java'},
+  { year: 2021, text: 'Started my first tech internship as a UI/UX Designer'},
+  { year: 2022, text: 'Backend Developer at Above & Beyond Studios and Exorbital', image: '/images/ABS.png'},
+  { year: 2023, text: 'Incoming IT Development Engineer at Qualcomm', image: '/images/Qualcomm.png' },
 ];
