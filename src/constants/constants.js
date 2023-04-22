@@ -5,7 +5,7 @@
 export const projects = [
   {
     title: 'Reddit Search Interface',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    description: "Reddit Search Interface is a web application that allows users to search for posts on Reddit. The application is built using HTML, CSS, and Javascript.",
     image: '/images/reddit.gif',
     tags: ['Javascript', 'HTML', 'CSS3'],
     source: 'https://github.com/danielu20101/Reddit-Search-Program',
@@ -45,5 +45,6 @@ export const TimeLineData = [
   { year: 2019, text: 'Began my Computer Science Studies at Lehigh University', },
   { year: 2020, text: 'Wrote my first program in Java', },
   { year: 2021, text: 'Started my first tech internship as a UI/UX Designer', },
-  { year: 2022, text: 'Developed backend servers at ABS and Exorbital', }
+  { year: 2022, text: 'Backend Developer at Above & Beyond Studios and Exorbital', },
+  { year: 2023, text: 'Incoming IT Development Engineer at Qualcomm',}
 ];
