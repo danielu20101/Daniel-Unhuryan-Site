@@ -35,8 +35,8 @@ export const projects = [
     description: "News application features a free and paid user interfaces. Paid users are stored in MongoDB database, and a list of news preferences in their profile. Encryption is designed using Crypto.JS library for passwords",
     image: '/images/TotallyRealNews.gif',
     tags: ['Javascript','HTML','CSS', 'MongoDB', 'Express.js', 'Node.js', "Crypto.JS"],
-    source: '/images/TotallyRealNews.gif',
-    visit: '',
+    source: 'https://github.com/cse264/TotallyRealNews',
+    visit: 'https://github.com/cse264/TotallyRealNews',
     id: 3,
   },
 ];
